@@ -1,0 +1,61 @@
+.signup-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.h1 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  /* background-image: url('https://images.hdqwalls.com/wallpapers/bthumb/deer-in-magical-forest-2b.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.input {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border:none;
+  background-color: #f1f1f1;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+padding-left: 115px;
+padding-right: 115px
+}
+
